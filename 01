@@ -1,0 +1,36 @@
+
+
+alert ( "Vamos fazer as operações básicas?")
+let numberOne = prompt ("Digíte o primeiro número:")
+let numberTwo = prompt ("Digíte o segundo número:") 
+let soma = Number(numberOne) + Number (numberTwo)
+let subtração = Number(numberOne) - Number (numberTwo)
+let multiplicação = Number(numberOne) * Number (numberTwo)
+let divisão= Number(numberOne) / Number (numberTwo)
+let resto = Number(numberOne) % Number (numberTwo)
+
+alert ("o resultado da soma é: " + (soma))
+alert ("o resultado da subtração é : " + ( subtração ))
+alert ("o resultado da multiplicação é : " + (multiplicação))
+alert ("o resultado da divisão é : " +(divisão).toFixed(2))
+alert ("o resto da divisão é : " + (resto))
+if ( resto == 0 )  { 
+  alert ( "a soma dos números é par")
+  
+} 
+  else if (resto != 0 ) {
+  alert ( "a soma dos números é ímpar ")
+}
+
+if (numberOne === numberTwo) {
+  alert (" os números digitados foram iguais")
+}
+
+else if (numberOne !== numberTwo) {
+  alert (" os números digitados foram diferentes")
+}
+
+
+
+
+
